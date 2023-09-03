@@ -274,16 +274,17 @@ p {
 }
 .btn {
   float: right;
+  margin-top: -12px;
 }
-.btn-code a {
+.btn-code {
   font-weight: bold;
   text-decoration: none;
   border: none;
   color: black;
 }
+
 .btn-code:hover {
   opacity: 0.9;
-  transform: translateY(-2px);
 }
 
 @media (max-width: 1400px) {
