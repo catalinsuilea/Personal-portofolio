@@ -21,14 +21,12 @@ btnClose.addEventListener("click", function () {
 });
 card.forEach((item, i) => {
   item.addEventListener("mouseenter", function () {
-    //console.log(item, i);
     document.querySelector(`.code-${i + 1}`).style.display = "block";
   });
 });
 
 card.forEach((item, i) => {
   item.addEventListener("mouseleave", function () {
-    //console.log(item, i);
     document.querySelector(`.code-${i + 1}`).style.display = "none";
   });
 });
